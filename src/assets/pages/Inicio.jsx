@@ -15,7 +15,7 @@ export default function Inicio() {
   return (
     <animated.div style={props} className="App">
 
-      <div>
+      <div className='ONG'>
         <p className='OS'>Organização Social</p>
         <div className='nomeONG space'>
           <div className="lineONG" /><h1>OSC Novo Amanhecer</h1>

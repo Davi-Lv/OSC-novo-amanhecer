@@ -36,15 +36,15 @@ export default function Contatos() {
         </div>
         <div>
           <h3 className='SI contactLine'>Email</h3>
-          <p className='contactSI space'>icon email: novoamanhecerrecife@gmail.com</p>
+          <a className='linkk' href="mailto:novoamanhecerrecife@gmail.com"><p className='contactSI space'>novoamanhecerrecife@gmail.com</p></a>
         </div>
         <div>
           <h3 className='SI contactLine'>Telefone e WhatsApp</h3>
-          <p className='contactSI space'>icon fone: (81) 9 9981-4988</p>
+          <a className='linkk' href="tel:+55-81-99981-4988"><p className='contactSI space'>(81) 9 9981-4988</p></a>
         </div>
         <div>
           <h3 className='SI contactLine'>Midias sociais</h3>
-          <p className='contactSI space'>Instagram icon: @oscnovoamanhecer</p>
+          <a className='linkk' href="https://www.instagram.com/oscnovoamanhecer/"><p className='contactSI space'>Instagram: @oscnovoamanhecer</p></a>
         </div>
       </div>
     </animated.div>

@@ -91,11 +91,6 @@ body {
 .center{
   text-align: -webkit-center;
 }
-@media (max-width: 680px) {
-  .buttons {
-    display: none;
-  } 
-}
 .lineONG{
   width: 0;
   height: 46px;
@@ -120,8 +115,6 @@ body {
   background: linear-gradient(264.59deg, #E60781 36.15%, #F38F00 57.83%, #37A5E2 77.04%, #6C258D 95.63%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-clip: text;
-  text-fill-color: transparent;
   background-blend-mode: darken;
 }
 .OS{
@@ -180,6 +173,17 @@ body {
   width: 603px;
   text-align-last: left;
   color: #3C3C3C;
+}
+.linkk{
+  text-decoration: none;
+}
+.linkk:hover{
+  text-decoration: underline;
+  cursor: pointer;
+  text-decoration-color: #000;
+}
+.linkk p:hover{
+  color: #000;
 }
 .AfterDoacao {
   width: 603px;
@@ -257,6 +261,7 @@ body {
   align-items: center;
   text-align: center;
   color: #FFFFFF;
+  white-space: nowrap;
 }
 .subDoar2 button:hover{
   background: #006ba7;
@@ -365,7 +370,6 @@ body {
 }
 .local{
   width: 293px;
-  width: 293px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -387,5 +391,57 @@ body {
   border-bottom: 3px solid #D9D9D9;
 }
 @media (max-width: 680px) {
-  
+  .buttons {
+    display: none;
+  } 
+  .texto {
+    width: 90%;
+  }
+  .nomeONG {
+    white-space: nowrap;
+    width: 100%;
+  }
+  .nomeONG h1 {
+    font-size: 150%;
+  }
+  .AfterDoacao {
+    width: 90%;
+  }
+  .backgroundbackground {
+    width: 90%;
+  }
+  .backgroundbackground h3 {
+    width: 80%;
+    font-size: 100%;
+    height: 80px;
+  }
+  .doar {
+    flex-direction: column;
+    width: 280px;
+  }
+  .sep {
+    margin-right: 0;    
+    margin-bottom: 30px;
+  }
+  .localizacao {
+    flex-direction: column;
+  }
+  .map {
+    margin-bottom: 30px;
+  }
+  .local h3, .local p{
+    width: 100%;
+  }
+  .SI{
+    width: 90%;
+  }
+  .contactSI {
+    width: 90%;
+  }
+  .ONG{
+    width: 90%;
+  }
+  .OS{
+    width: 100%;
+  }
 }

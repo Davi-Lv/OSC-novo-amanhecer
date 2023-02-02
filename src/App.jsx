@@ -31,13 +31,3 @@ export default function App() {
     </div>
   )
 }
-
-/*
-echo "# OSC-novo-amanhecer" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/Davi-Lv/OSC-novo-amanhecer.git
-git push -u origin main
-*/
