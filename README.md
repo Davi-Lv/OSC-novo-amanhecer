@@ -6,9 +6,3 @@
 - ReactJS com o Vite como build tool
 - Biblioteca react-spring para animações
 - Biblioteca react-router-dom para roteamento
-
-### Recursos do Projeto
-- Página de campanhas realizadas pela ONG
-- Página para doações
-- Página de contato para comunicação com a ONG
-- pagina de informações da ONG  
