@@ -1,5 +1,3 @@
-# OSC Novo Amanhecer
-
 ![Capa do Projeto](https://placehold.co/1200x600/f8fafc/ec4899?text=OSC+Novo+Amanhecer)
 
 Repositório do portal digital da organização social OSC Novo Amanhecer.
